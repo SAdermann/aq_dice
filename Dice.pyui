@@ -1,0 +1,213 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {382, 543}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{16, 8}, {64, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "53099E64-488C-4165-A682-838C38CEB4B8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Reroll:",
+          "name" : "labelReroll",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{16, 269}, {350, 84}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "font_name" : "<System>",
+          "editable" : false,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "BA2C525C-A749-4988-A65D-E47A7C1B6E66",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "textRollResult",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{9.5, 48}, {112, 29}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "segmentedcontrolMelee",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "flex" : "LR",
+          "class" : "SegmentedControl",
+          "segments" : "Melee|Ranged",
+          "uuid" : "EF14FD38-9F90-4A08-B8AF-82D331D101A8"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{16, 88}, {80, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "labelDefense",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "73925E50-5961-4F91-B4C0-3E23C939DB83",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Defense:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{307, 168}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{135, 225}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchHitsAddDice",
+          "uuid" : "89FB7C43-D42D-443A-915D-0E70A410DAFB"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{16, 168}, {251, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "93B0202B-D4A2-46F7-85E0-03E8C995CC8D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Hits add dice (ranged only):",
+          "name" : "labelHitsAddDice",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{16, 224}, {110, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "rollAttack",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Roll Attack",
+          "class" : "Button",
+          "uuid" : "51780DA2-E674-43C2-9C05-04BF854C8FDB",
+          "corner_radius" : 3,
+          "font_size" : 15,
+          "name" : "buttonAttack"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{248, 224}, {110, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "rollDefense",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Roll Defense",
+          "class" : "Button",
+          "uuid" : "7C3BBAC8-9BEA-40D0-B773-42EA1A3FC7F0",
+          "corner_radius" : 3,
+          "font_size" : 15,
+          "name" : "buttonDefense"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{132, 224}, {110, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "calculateOdds",
+          "frame" : "{{147, 237}, {80, 32}}",
+          "title" : "Odds",
+          "class" : "Button",
+          "uuid" : "DC89CEEC-C667-4217-A4DA-689AD5BD9B76",
+          "corner_radius" : 3,
+          "font_size" : 15,
+          "name" : "buttonOdds"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{16, 128}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{112, 237}, {150, 32}}",
+          "uuid" : "93F81D39-2D83-44C8-95A9-CC02CE8AFC07",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Reroll until crit:",
+          "font_size" : 18,
+          "name" : "labelRerollUntilCrit"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{307, 128}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{162, 237}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchRerollForCrit",
+          "uuid" : "6F122273-FC4F-4720-9FED-88A7EB84F83E"
+        }
+      }
+    ],
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "Arcadia Quest Roller",
+      "flex" : ""
+    }
+  }
+]
