@@ -1,5 +1,5 @@
 # aq_dice
-Arcadia Quest dice rolling app for Pythonista
+Arcadia Quest dice rolling app for Pythonista. Run Dice.py.
 
 Rolls attack or defense dice for Arcadia Quest board game, automatically 
 applying rerolls. Odds button simulates 10,000 rolls, showing the average and
